@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+html,body{
+    margin: 0;
+    height: 100%;
+    position: relative;
+    max-width: 1349px;
+    background-color: black;
+}
+.logo {
+    position: absolute;
+    left: 49px;
+    top: 37px;
+    font-family: Gothic A1;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.sign{
+    position: absolute;
+    top: 29px;
+}
+.logintxt{
+    position: absolute;
+    top: 67px;
+    left: 460px;
+}
+.loginstyle{
+    font-family: Gothic A1;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    left: 47px;
+    top: 25px;
+    width: 250px;
+}
+.firststyle{
+    position: absolute;
+    top: 149px;
+    left: 0px;
+    width: 200px;
+}
+
+.laststyle{
+    position: absolute;
+    top: 249px;
+    left: 0px;
+    width: 200px;
+}
+.bspace{
+    position: absolute;
+    top: 1045px;
+    left: 63px;
+}
+.lspace{
+    position: absolute;
+    top: 291px;
+    left: 0px;
+}
+.emailstyle{
+    position: absolute;
+    top: 349px;
+    left: 0px;
+    width: 200px;
+}
+.espace{
+    position: absolute;
+    top: 385px;
+    left: 0px;
+    
+}
+.emtxt{
+    position: absolute;
+    top: 440px;
+    font-size: 10px;
+    color: #5C5959;
+    width: 300px;
+}
+.passstyle{
+    position: absolute;
+    top: 465px;
+    width: 200px;
+}
+.pspace{
+    position: absolute;
+    top: 504px;
+}
+.jobtstyle{
+    position: absolute;
+    top: 566px;
+    width: 200px;
+}
+.jtspace{
+    position: absolute;
+    top: 605px;
+}
+.orgnstyle{
+    position: absolute;
+    top: 668px;
+    width: 200px;
+}
+.onspace{
+    position: absolute;
+    top: 706px;
+}
+.orglstyle{
+    position: absolute;
+    top: 766px;
+    width: 200px;
+}
+.olspace{
+    position: absolute;
+    top: 802px;
+}
+.memsizestyle{
+    position: absolute;
+    top: 860px;
+    width: 200px;
+}
+.msspace{
+    position: absolute;
+    top: 896px;
+}
+.check{
+    position: relative;
+    top: 974px;
+}
+.checkstyle{
+
+}
+
+
+@media screen and (max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+    .logo {
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        font-family: Gothic A1;
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .whole{
+        position: absolute;
+        top: 55px;
+        left: 18px;
+        padding-right: 277px;
+    }
+    .loginstyle {
+        font-family: Gothic A1;
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 80px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: absolute;
+        left: 34px;
+        top: 41px;
+        width: 134px;
+    }
+    .firststyle {
+        position: absolute;
+        top: 152px;
+        left: 0px;
+        width: 88px;
+    }
+    .emtxt {
+        position: absolute;
+        top: 430px;
+        font-size: 10px;
+        color: #5C5959;
+        width: 206px;
+    }
+    .fspace {
+        position: absolute;
+        top: 57px;
+        left: 0px;
+    }
+    .checkstyle {
+        width: 194px;
+        display: flex;
+        font-size: 10px;
+        position: absolute;
+        top: 3px;
+        left: 16px;
+    }
+    .bspace {
+        position: absolute;
+        top: 993px;
+        left: 43px;
+    }
+    .check {
+        position: relative;
+        top: 954px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fspace{
+    position: absolute;
+    top: 185px;
+    left: 0px;
+}
+.lower{
+    position: absolute;
+    top: 535px;
+    left: 658px;
+}
+.forgot{
+    position: absolute;
+    top: 33px;
+    left: -26px;
+    width: 200px;
+}

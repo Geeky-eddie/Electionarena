@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+html,body{
+    margin: 0;
+    height: 100%;
+    position: relative;
+    max-width: 1349px;
+    background-color: black;
+}
+/* .navli , li ,a {
+    display: inline-flex;
+    padding: 0 31px 0 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    transition: 0.7s ease;
+}
+.navli li a:hover{
+    color: #1AFF06;
+    font-size: 32px;
+}
+.navli li a.active{
+    color: #1AFF06;
+} */
+.navlinks{
+    position: absolute;
+    top: 58px;
+    left: 394px;
+}
+.logo {
+    position: absolute;
+    left: 49px;
+    top: 37px;
+    font-family: Gothic A1;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sign{
+    position: absolute;
+    top: 29px;
+}
+.logintxt{
+    position: absolute;
+    top: 67px;
+    left: 460px;
+}
+.loginstyle{
+    font-family: Gothic A1;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    left: 34px;
+    top: 25px;
+
+}
+.emailstyle{
+    position: absolute;
+    top: 149px;
+    left: 0px;
+}
+
+.passstyle{
+    position: absolute;
+    top: 249px;
+    left: 0px;
+}
+.bspace{
+    position: absolute;
+    top: 396px;
+    left: 32px;
+}
+.pspace{
+    position: absolute;
+    top: 291px;
+    left: 0px;
+}
+.espace{
+    position: absolute;
+    top: 185px;
+    left: 0px;
+}
+.lower{
+    position: absolute;
+    top: 474px;
+    left: 85px;
+}
+.forgot{
+    position: absolute;
+    top: 33px;
+    left: -26px;
+    width: 200px;
+}
+.signup {
+    width: 100px;
+    display: flex;
+    position: absolute;
+    top: 0px;
+}
+@media screen and (max-width: 800px){
+    .logo {
+        position: absolute;
+        left: 7px;
+        top: 13px;
+        font-family: Gothic A1;
+        font-size: 8px;
+        font-weight: 900;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .loginstyle {
+        font-family: Gothic A1;
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: absolute;
+        left: 94px;
+        top: -60px;
+    }
+    .emailstyle {
+        position: absolute;
+        top: 28px;
+        left: 5px;
+        font-size: 15px;
+    }
+    .espace {
+        position: absolute;
+        top: 64px;
+        left: 7px;
+    }
+    .passstyle {
+        position: absolute;
+        top: 126px;
+        left: 8px;
+        font-size: 15px;
+    }
+    .pspace {
+        position: absolute;
+        top: 167px;
+        left: 8px;
+    }
+    .bspace {
+        position: absolute;
+        top: 259px;
+        left: 42px;
+    }
+
+    .whole{
+        position: absolute;
+    top: 180px;
+    left: 0px;
+    padding-right: 600px;
+    }
+    .signup {
+        width: 65px;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    }
+    .forgot {
+        position: absolute;
+        top: 33px;
+        left: -26px;
+        width: 136px;
+    }
+    html,body{
+        margin: 0;
+        height: 100px;
+        position: relative;
+        max-width: 1349px;
+        background-color: black;
+        /* overflow-x: hidden; */
+    }
+    .lower {
+        position: absolute;
+    top: 343px;
+    left: 100px;
+    }
+}
